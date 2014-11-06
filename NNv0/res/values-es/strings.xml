@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NotesNet</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings del MainActivity -->
+    
+    <string name="B_M1">Nueva Nota</string>
+    <string name="B_M2">Ver Nota</string>
+    <string name="B_M3">Red Semantica</string>
+    <string name="B_M4">Modificar Ontologia</string>
+    <string name="B_M5">Opciones</string>
+    
+    <!-- Strings del Activiti Nueva Nota -->
+    
+    <string name="NN_Titulo">Escribe aquí el titulo&#8230;</string>
+    <string name="NN_Texto">Escribe aquí la nota&#8230;</string>
+    <string name="NN_B_M1">Guardar</string>
+    <string name="NN_Cont">0</string>
+    <string name="NN_text_viewclass">\\: </string>
+    <string name="NN_Nota_igual">Existe ya una nota con ese nombre</string>
+    
+     <!-- Strings del OptionActivity-->
+     
+      <string name="OA_NSeccion">Opciones</string>
+      <string name="OA_chekIdioma">Selecciona idioma:</string>
+      <string name="OA_chekcast">Castellano</string>
+      <string name="OA_chekingl">Ingles</string>
+      <string name="OA_chekBackup">Selecciona Periodo de Backup:</string>
+      <string name="OA_loadBackup">Cargar backup:</string>
+      <string name="OA_chekBdia">Diario</string>
+      <string name="OA_chekBsem">Semanal</string>
+      <string name="OA_chekBmes">Mensual</string>
+      <string name="OA_chekBNo">No Backup</string>
+      <string name="OA_B1">Salir</string>
+      <string name="OA_B2">Guardar</string>
+      <string name="OA_B3">Cargar</string>
+      <string name="OA_checkPS">Selecciona algún periodo de Backup</string>
+      
+       <string name="OA_Talert_1">Seguro que desea cargar esta copia de seguridad.</string>
+      <string name="OA_Talert_2">Cargar Copia</string>
+      <string name="OA_Talert_3">Yes</string>
+      <string name="OA_Talert_4">No</string>
+      
+       <!-- Strings del Activity ver_nota -->
+       
+        <!-- Strings del Activity Modifica Ontologia -->
+       
+       <string name="MO_titulo">Modifica Ontologia</string>
+       <string name="MO_B1">Atras</string>
+       <string name="MO_B2">Add</string>
+       <string name="MO_directorio">/</string>
+       <string name="MO_titulo2">Añade las clases</string>
+       <string name="MO_B3">Hecho</string>
+       <string name="MO_B4">Cancelar</string>
+        <string name="MO_clases">Clases: </string>
+        <string name="MO_clases_error">Error, Seleccione alguna clase</string>
+       
+       
+        <!-- Strings del Activity Modifica Eliminar notas -->
+
+		<string name="MEN_B_M1">Modificar</string>
+    	<string name="MEN_B_M2">Eliminar</string>
+    	
+    	
+    	<!-- **** MENSAJES DEL SISTEMA **** -->
+    	<!-- ****      TOAST           **** -->
+
+		<string name="MNJ_T_DirCreated">Nuevo Directorio Creado</string>
+		<string name="MNJ_T_NoteCreated">Nueva Nota Creada</string>
+    	<string name="MNJ_T_ErrorCreated">Error, campos vacios.</string>
+    	<string name="MNJ_T_NoteElim">La nota a sido eliminada.</string>
+    	<string name="MNJ_T_NoteModi">La nota a sido modificada.</string>
+    	<string name="MNJ_T_Mod_Ont_Raiz">Ya te encuentras en el elemento Raiz.</string>
+    	<string name="MNJ_T_elim_ont_clas">Clase eliminada.</string>
+    	<string name="MNJ_T_add_ont_clas">Elemento vacio.</string>
+    	<string name="MNJ_T_add_class_note">Primero seleccione un texto.</string>
+    	<string name="MNJ_T_no_notas">Ninguna nota encontrada. Pruebe con otra combinación</string>
+    	<string name="MNJ_T_changes">Cambios guardados</string>
+    	<string name="MNJ_T_WordCom">Por favor seleccione plabras completas</string>
+    	
+    	<!-- ****      Alertas           **** -->
+    	
+    	<string name="MNJ_Alert_elim">¿Desea eliminar la clase de la ontología? Atención: Las subclases tambien serán eliminadas.</string>
+    	<string name="MNJ_Alert_al">Alerta! Eliminando Clase</string>
+		<string name="MNJ_Alert_cont">Continuar</string>
+    	<string name="MNJ_Alert_can">Cancelar</string>
+    	<string name="MNJ_Alert_elimN">¿Esta seguro de eliminar la nota?</string>
+    	<string name="MNJ_Alert_alN">Alerta! Eliminando Nota</string>
+		<string name="MNJ_Alert_contN">Continuar</string>
+    	<string name="MNJ_Alert_canN">Cancelar</string>
+    	
+    	<!-- ****      ImagenButton Description           **** -->
+    	<string name="MNJ_IMG_desc">Cancelar</string>
+    	<string name="Text_GraphView_Menu">Busqueda por etiquetas</string>
+    	<string name="Text_GraphView_MenuMas">Aunmentar Tamaño Nodo</string>
+    	<string name="Text_GraphView_MenuMenos">Disminuir Tamaño Nodo</string>
+    	
+    	
+    	<!-- ****      FindbyEt.java           **** -->
+    	<string name="FBet_Buscar">Buscar</string>
+    	
+    	<string name="Toast_Backup">Backup completado</string>
+    	
+    	<string name="Alert_FBE">¿Buscar notas con </string>
+    	<string name="Alert_FBE_yes">Si</string>
+    	<string name="Alert_FBE_no">No</string>
+    	<string name="Alert_FBE_f">Busqueda por etiquetas</string>
+    	
+</resources>

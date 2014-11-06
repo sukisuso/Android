@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CCCCFF"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/OA_NSeccion"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="left|center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:background="#000000"
+        android:text="@string/OA_chekIdioma"
+        android:textColor="#33CCCC" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/OA_chekcast" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="39dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center"
+            android:src="@drawable/esp" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/OA_chekingl" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="39dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center"
+            android:src="@drawable/eng" />
+
+    </LinearLayout>
+    
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="left|center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:background="#000000"
+        android:text="@string/OA_chekBackup"
+        android:textColor="#33CCCC" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13dp"
+            android:text="@string/OA_chekBdia" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13dp"
+            android:text="@string/OA_chekBsem" />
+  </LinearLayout>
+    
+        <LinearLayout
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OA_chekBmes" />
+         
+          <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OA_chekBNo" />
+          </LinearLayout>
+
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="left|center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+         android:text="@string/OA_loadBackup"
+        android:background="#000000"
+        android:textColor="#33CCCC" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/CmbOpciones"
+            android:layout_width="184dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.53" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/OA_B3" />
+    </LinearLayout>
+    
+  <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="left|center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:background="#000000"
+        android:textColor="#33CCCC" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+         	   android:layout_marginLeft="65dp"
+            android:text="@string/OA_B1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/OA_B2" />
+
+    </LinearLayout>
+    
+</LinearLayout>

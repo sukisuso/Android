@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCFF"
+    android:orientation="vertical" >
+
+ 
+    <TextView
+        android:id="@+id/textViewtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="left|center"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:background="#000000"
+        android:text="@string/MO_titulo"
+        android:textColor="#33CCCC" 
+         android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/textViewdirectori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewtitulo"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingTop="5dp"
+        android:text="@string/MO_directorio" />
+   
+    <TextView 
+        android:background="#000000"
+ 		android:id="@+id/lineaHorizontal"
+ 		android:layout_below="@+id/textViewdirectori"
+  		android:layout_height="2dp"
+  		android:layout_width="fill_parent"/>
+	
+	<ScrollView
+  
+  	android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:layout_below="@+id/lineaHorizontal"
+   android:layout_above="@+id/lineaHorizontal2">
+
+    <LinearLayout
+        android:id="@+id/Layoutont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textSize="25dp" >
+
+    </LinearLayout>
+    </ScrollView>
+
+    
+     <TextView 
+        android:background="#000000"
+ 		android:id="@+id/lineaHorizontal2"
+ 		android:layout_above="@+id/menub"
+  		android:layout_height="2dp"
+  		android:layout_width="fill_parent"/>
+     
+     
+    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:id="@+id/menub"
+	        android:layout_height="wrap_content" 
+	        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/buttonback"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="@drawable/gradientbuttontablet"
+            android:layout_alignParentLeft="true" 
+            android:text="@string/MO_B1" />
+
+        <Button
+           android:id="@+id/buttonadd"
+           android:layout_width="100dp"
+       	   android:layout_height="60dp"
+        android:background="@drawable/gradientbuttontablet"
+            android:layout_toRightOf="@+id/buttonback"
+            android:layout_marginLeft="5dp"
+            android:text="@string/MO_B2" />
+        
+    </RelativeLayout>
+
+    
+
+</RelativeLayout>

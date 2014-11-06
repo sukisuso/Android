@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">NotesNet</string>
+     <string name="action_settings">Settings</string>
+
+     <!-- Strings del MainActivity -->
+     
+     <string name="B_M1">New Note</string>
+     <string name="B_M2">Notes List</string>
+     <string name="B_M3">Semantic Network</string>
+     <string name="B_M4">Modify Ontology</string>
+     <string name="B_M5">Options</string>     
+    <!-- Strings del Activiti Nueva Nota -->
+    
+    <string name="NN_Titulo">Write here the title&#8230;</string>
+    <string name="NN_Texto">Write here the note&#8230;</string>
+    <string name="NN_B_M1">Save</string>
+    <string name="NN_text_viewclass">\\: </string>
+    <string name="NN_Nota_igual">There is a note with that name  </string>
+
+     
+      <!-- Strings del OptionActivity-->
+      
+       <string name="OA_NSeccion">Options</string>
+       <string name="OA_chekIdioma">Select Language:</string>
+       <string name="OA_chekcast">Spanish</string>
+       <string name="OA_chekingl">English</string>
+       <string name="OA_chekBackup">Select backup period:</string>
+       <string name="OA_loadBackup">Load backup:</string>
+       <string name="OA_chekBdia">Daily</string>
+       <string name="OA_chekBsem">Weekly</string>
+       <string name="OA_chekBmes">Monthly</string>
+       <string name="OA_chekBNo">No Backup</string>
+       <string name="OA_B1">Exit</string>
+       <string name="OA_B2">Save</string>
+       <string name="OA_B3">Load</string>
+        <string name="OA_checkPS">Check some Bacup period</string>
+        
+        <string name="OA_Talert_1">Are you sure you want to load the security copy?</string>
+       <string name="OA_Talert_2">Load Copy</string>
+
+       <string name="OA_Talert_3">Yes</string>
+       <string name="OA_Talert_4">No</string>
+        
+        <!-- Strings del Activity ver_nota -->
+        
+         <!-- Strings del Activity Modifica Ontologia -->
+        
+        <string name="MO_titulo">Modify Ontology </string>
+        <string name="MO_B1">Back </string>
+
+        <string name="MO_B2">Add </string>
+        <string name="MO_directorio">/</string>
+        <string name="MO_titulo2">Add class</string>
+        <string name="MO_B3">Done</string>
+        <string name="MO_B4">Cancel</string>
+         <string name="MO_clases">Clases: </string>
+         <string name="MO_clases_error">Error, Select some class</string>
+
+        
+        
+         <!-- Strings del Activity Modifica Eliminar notas -->
+
+ <string name="MEN_B_M1">Modify</string>
+     <string name="MEN_B_M2">Delete</string>
+    
+    
+     <!-- **** MENSAJES DEL SISTEMA **** -->
+     <!-- ****      TOAST           **** -->
+
+ <string name="MNJ_T_DirCreated">New Folder Created</string>
+ <string name="MNJ_T_NoteCreated">New Note Created</string>
+     <string name="MNJ_T_ErrorCreated">Error, empty fields.</string>
+     <string name="MNJ_T_NoteElim">The note has been deleted</string>
+     <string name="MNJ_T_NoteModi">The note has been modifyed</string>
+     <string name="MNJ_T_Mod_Ont_Raiz">You are in the root.</string>
+     <string name="MNJ_T_elim_ont_clas">Class deleted.</string>
+     <string name="MNJ_T_add_ont_clas">Empty element.</string>
+     <string name="MNJ_T_add_class_note">Please, select a text first.</string>
+     <string name="MNJ_T_no_notas"> No notes founded. Please, try with other selection</string>
+     <string name="MNJ_T_changes">Changes saved</string>
+     <string name="MNJ_T_WordCom">Please select whole words</string>
+
+
+         <!-- ****      Alertas           **** -->
+
+     <string name="MNJ_Alert_elim">  Do you want to delete the ontology class? Warning, all the subclasses will be deleted too</string>
+     <string name="MNJ_Alert_al">Warning! Deleting Class</string>
+		<string name="MNJ_Alert_cont">Contine</string>
+    	<string name="MNJ_Alert_can">Cancel</string>
+    	<string name="MNJ_Alert_elimN">Are you sure you want to delete the note?</string>
+    	 <string name="MNJ_Alert_alN">Warning! Deleting note</string>
+		<string name="MNJ_Alert_contN">Continue</string>
+    	<string name="MNJ_Alert_canN">Cancel </string>
+    	
+    	<!-- ****      ImagenButton Description           **** -->
+    	<string name="MNJ_IMG_desc">Cancel </string>   
+    	<string name="Text_GraphView_Menu">Searching by label</string>
+		<string name="FBet_Buscar">Find</string>
+    	<string name="Toast_Backup">Backup completed</string>
+    	<!-- ****      FindbyEt.java           **** -->
+    	<string name="Alert_FBE">Search notes with </string>
+    	<string name="Alert_FBE_yes">Yes</string>
+    	<string name="Alert_FBE_no">No</string>
+    	<string name="Alert_FBE_f">Find by et</string>
+		 	
+</resources>

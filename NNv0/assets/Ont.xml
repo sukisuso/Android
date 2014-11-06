@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/NotesNetOnt#"
+     xml:base="http://www.semanticweb.org/NotesNetOnt"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/NotesNetOnt"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Abuelos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Abuelos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Familia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Aereo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Aereo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Vehiculo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Alimentacion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Alimentacion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Animal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Baloncesto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Baloncesto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Cine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Cine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Ciudad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Ciudad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Lugares"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Compras -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Compras"/>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Cultura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Cultura"/>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Deporte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Deporte"/>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Domestico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Domestico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Economia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Economia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#FIBA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#FIBA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Baloncesto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Familia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Familia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Fotografia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Fotografia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Futbol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Futbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Deporte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Hermanos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Hermanos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Familia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Hobbies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Hobbies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Hombre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Hombre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Persona"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Literatura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Literatura">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Lugares -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Lugares"/>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Maritimo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Maritimo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Vehiculo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Mujer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Mujer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Persona"/>
+    </owl:Class>
+    
+      <!-- http://www.semanticweb.org/NotesNetOnt#Amigos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Amigos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Persona"/>
+    </owl:Class>
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Musica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Musica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Cultura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#NBA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#NBA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Baloncesto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Padres -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Padres">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Familia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Pais -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Pais">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Lugares"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Persona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Persona"/>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Profesion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Profesion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Salud -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Salud"/>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Salvaje -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Salvaje">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Tecnologia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Tecnologia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Terrestre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Terrestre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/NotesNetOnt#Vehiculo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/NotesNetOnt#Vehiculo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/NotesNetOnt#Vehiculo"/>
+</rdf:RDF>
